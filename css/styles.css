@@ -7,7 +7,8 @@ input {
   border: solid 2px #21a1e1;
   color: #21a1e1;
   padding: 15px 40px;
-  font-size: 18px; }
+  font-size: 18px;
+  display: inline-block; }
   input:focus, input:active {
     outline: none; }
   input[type="text"], input[type="email"] {
@@ -16,5 +17,14 @@ input {
   input[type="submit"]:active {
     color: white;
     background: #21a1e1; }
+
+.input-group {
+  display: inline-block;
+  margin-right: 20px;
+  position: relative; }
+  .input-group label {
+    position: absolute;
+    top: 50%;
+    left: 0px; }
 
 /*# sourceMappingURL=styles.css.map */
