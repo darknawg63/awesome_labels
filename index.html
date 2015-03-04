@@ -3,17 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
 </head>
 <body>
     <form class="awesome-form">
-        <label>Your Full Name</label>
-        <input type="text">
-    
-        <label>Your Email Address</label>
-        <input type="email">
-    
-        <input type="submit">
+        <div class="input-group">
+            <input type="text">
+            <label>Your Full Name</label>
+        </div>
+ 
+        <div class="input-group">
+            <input type="email">   
+            <label>Your Email Address</label>
+        </div>
+            
+        <input type="submit">       
     </form>
 </body>
 </html>
