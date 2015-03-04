@@ -22,9 +22,21 @@ input {
   display: inline-block;
   margin-right: 20px;
   position: relative; }
+  .input-group input {
+    padding: 15px 0px; }
   .input-group label {
     position: absolute;
     top: 50%;
-    left: 0px; }
+    left: 0px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-family: "Georgia", "Cambria", "Times New Roman", "Times", serif;
+    font-style: italic;
+    font-size: 18px;
+    color: #999;
+    pointer-events: none; }
 
 /*# sourceMappingURL=styles.css.map */

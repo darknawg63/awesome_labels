@@ -29,5 +29,16 @@ input
     display: inline-block
     margin-right: 20px
     position: relative
+    
+    input
+        padding: 15px 0px
+
     label
         +position(absolute, 50% null null 0px)
+        +transform(translateY(-50%))
+        font:
+            family: $georgia
+            style: italic
+            size: 18px
+        color: #999
+        pointer-events: none
