@@ -42,3 +42,10 @@ input
             size: 18px
         color: #999
         pointer-events: none
+        +transition
+
+    input:focus + label,
+    input.has-value + label
+        top: -10px
+        font-size: 12px
+        color: #aaa
